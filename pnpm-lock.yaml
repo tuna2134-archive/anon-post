@@ -8,8 +8,14 @@ dependencies:
   discord.js:
     specifier: ^14.11.0
     version: 14.11.0
+  tslog:
+    specifier: ^4.8.2
+    version: 4.8.2
 
 devDependencies:
+  prettier:
+    specifier: ^3.0.0
+    version: 3.0.0
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -183,6 +189,12 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /readable-stream@3.6.2:
     resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
     engines: {node: '>= 6'}
@@ -236,6 +248,11 @@ packages:
 
   /tslib@2.6.1:
     resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+    dev: false
+
+  /tslog@4.8.2:
+    resolution: {integrity: sha512-eAKIRjxfSKYLs06r1wT7oou6Uv9VN6NW9g0JPidBlqQwPBBl5+84dm7r8zSOPVq1kyfEw1P6B3/FLSpZCorAgA==}
+    engines: {node: '>=16'}
     dev: false
 
   /typescript@5.1.6:

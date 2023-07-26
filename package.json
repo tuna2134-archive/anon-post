@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w src"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "discord.js": "^14.11.0"
+    "discord.js": "^14.11.0",
+    "tslog": "^4.8.2"
   }
 }
